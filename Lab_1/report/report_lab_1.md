@@ -8,7 +8,7 @@
 
 ### 1.2. Thiết kế kiến trúc:
 Chương trình được thiết kế theo mô hình mô-đun hóa với các thành phần chính:
-`
+```
 src/
 ├── core/
 │   ├── interfaces.py       # Abstract classes
@@ -19,7 +19,7 @@ src/
 ├── representations/
 │   └── count_vectorizer.py # Count vectorizer
 └── main_test_lab_1.py      # Main demo program
-`
+```
 
 ### 1.3. Triển khai chi tiết:
 
@@ -48,13 +48,13 @@ echo "requests" > requirements.txt
 pip install --upgrade -r requirements.txt
 `
 ### 2.2. Chạy chương trình:
-`
+```
 # Chạy chương trình chính
 python src/main_test_lab_1.py
 
 # Ghi log kết quả ra file
 python src/main_test_lab_1.py > output.log
-`
+```
 ### 2.3. Cấu trúc chương trình chính:
 Chương trình `main_test_lab_1.py` bao gồm 3 phần demo:
 1. Demo tokenizers trên các câu mẫu.
@@ -91,10 +91,10 @@ Chương trình `main_test_lab_1.py` bao gồm 3 phần demo:
 
 ### 3.3. Kết quả Count Vectorizer:
 **Vocabulary học được:**
-`
+```
 0: .     1: a     2: ai    3: i     4: is
 5: love  6: nlp   7: of    8: programming  9: subfield
-`
+```
 **Document-term matrix:**
 - **Document 0 ("I love NLP."):** `[1, 0, 0, 1, 0, 1, 1, 0, 0, 0]`
 - **Document 1 ("I love programming."):** `[1, 0, 0, 1, 0, 1, 0, 0, 1, 0]`
