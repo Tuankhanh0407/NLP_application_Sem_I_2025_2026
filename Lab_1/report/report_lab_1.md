@@ -40,13 +40,13 @@ src/
 ## 2. Cách chạy code và ghi log kết quả:
 
 ### 2.1. Cài đặt môi trường:
-`
+```
 # Tạo file requirements.txt
 echo "requests" > requirements.txt
 
 # Cài đặt dependencies
 pip install --upgrade -r requirements.txt
-`
+```
 ### 2.2. Chạy chương trình:
 ```
 # Chạy chương trình chính
